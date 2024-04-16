@@ -8,6 +8,7 @@ import { getHeroesByName } from '../helpers';
 export const SearchPage = () => {
 
   const navigate = useNavigate();
+  
   const location = useLocation();
 
   const { q = '' } = queryString.parse( location.search );
